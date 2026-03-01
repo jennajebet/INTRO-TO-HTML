@@ -8,12 +8,12 @@
             function display(some) {
                 document.getElementById("result").innerHTML = some;
             }
-            async function add (a,b){
-                let response = await(a + b);
+            async function multiply (a,b){
+                let response = await(a * b);
                 display(response);
             }
 
-            add(5, 20)
+            multiply(5, 20)
         </script>
     </body>
 </html>
